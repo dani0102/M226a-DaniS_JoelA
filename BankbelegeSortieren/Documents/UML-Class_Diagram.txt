@@ -1,0 +1,38 @@
+@startuml
+
+class Bankkontonummerproperties {
+}
+
+class Pfadproperties {
+}
+
+class Main {
+  Logger log
+  +main()
+}
+
+class Ordner {
+  Logger log
+  +woerstellen()
+  +joerstellen()
+  +moerstellen()
+}
+
+class Fileskopieren {
+  Logger log
+  +floeschen()
+}
+
+class Filesloeschen {
+  Logger log
+  +floeschen()
+}
+
+Main -o Ordner
+Ordner -o Fileskopieren
+Ordner -o Filesloeschen
+Fileskopieren -o Bankkontonummerproperties
+Ordner -o Pfadproperties
+
+
+@enduml
