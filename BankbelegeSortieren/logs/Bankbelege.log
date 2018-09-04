@@ -1,0 +1,110 @@
+INFO  2018-09-03 20:34:55,861 [main] nyp.Main:main(16): Programm gestartet.
+INFO  2018-09-03 20:34:55,873 [main] nyp.Main:main(22): Properties erfolgreich gelesen.
+DEBUG 2018-09-03 20:34:55,875 [main] nyp.Main:main(46): C:\BankBelegeOrdner\Bankbelege\10_NoMag Ordner wurde erstellt.
+DEBUG 2018-09-03 20:34:55,983 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:55,986 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:55,986 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:55,989 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,039 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,040 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,042 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,042 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,098 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,099 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,101 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,101 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,103 [main] nyp.Main:main(46): C:\BankBelegeOrdner\Bankbelege\30_B+S Ordner wurde erstellt.
+DEBUG 2018-09-03 20:34:56,122 [main] nyp.Fileskopieren:fkopieren(91): C:\BankBelegeOrdner\alleBelege\20180418\568223-81_payment_2018-04-18_03-10-36182.000.pdf wurde kopiert.
+DEBUG 2018-09-03 20:34:56,156 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,158 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,158 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,158 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,179 [main] nyp.Fileskopieren:fkopieren(91): C:\BankBelegeOrdner\alleBelege\20180403\568223-82-1_payment_2018-04-02_07-36-34635.000.pdf wurde kopiert.
+DEBUG 2018-09-03 20:34:56,217 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,217 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,226 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,226 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,242 [main] nyp.Fileskopieren:fkopieren(91): C:\BankBelegeOrdner\alleBelege\20180403\568223-82-1_payment_2018-04-02_07-36-34635.000.pdf wurde kopiert.
+DEBUG 2018-09-03 20:34:56,277 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,278 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,279 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,279 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,279 [main] nyp.Main:main(46): C:\BankBelegeOrdner\Bankbelege\40_Akros Ordner wurde erstellt.
+DEBUG 2018-09-03 20:34:56,294 [main] nyp.Fileskopieren:fkopieren(91): C:\BankBelegeOrdner\alleBelege\20180314\847599-01_payment_2018-03-13_19-30-52464.000.pdf wurde kopiert.
+DEBUG 2018-09-03 20:34:56,336 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,336 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,336 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,336 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,396 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,396 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,400 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,400 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,402 [main] nyp.Main:main(46): C:\BankBelegeOrdner\Bankbelege\50_Frox Ordner wurde erstellt.
+DEBUG 2018-09-03 20:34:56,438 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,450 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,450 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,450 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,504 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,504 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,504 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,504 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,508 [main] nyp.Main:main(46): C:\BankBelegeOrdner\Bankbelege\60_Sohard Ordner wurde erstellt.
+DEBUG 2018-09-03 20:34:56,552 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,553 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,553 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,553 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,602 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,603 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,605 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,605 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,606 [main] nyp.Main:main(46): C:\BankBelegeOrdner\Bankbelege\61_Dabis Ordner wurde erstellt.
+DEBUG 2018-09-03 20:34:56,660 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,660 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,660 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,660 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,702 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,702 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,702 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,702 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,715 [main] nyp.Main:main(46): C:\BankBelegeOrdner\Bankbelege\70_NYP Ordner wurde erstellt.
+DEBUG 2018-09-03 20:34:56,756 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,756 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,756 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,756 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,756 [main] nyp.Main:main(46): C:\BankBelegeOrdner\Bankbelege\1010_NoEng ZD Ordner wurde erstellt.
+DEBUG 2018-09-03 20:34:56,777 [main] nyp.Fileskopieren:fkopieren(91): C:\BankBelegeOrdner\alleBelege\20180314\902876-81-2_credit_details_2018-03-14_00-46-08841.000.pdf wurde kopiert.
+DEBUG 2018-09-03 20:34:56,809 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,809 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,809 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,815 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,817 [main] nyp.Main:main(46): C:\BankBelegeOrdner\Bankbelege\1012_NoEng WI Ordner wurde erstellt.
+DEBUG 2018-09-03 20:34:56,829 [main] nyp.Fileskopieren:fkopieren(91): C:\BankBelegeOrdner\alleBelege\20180314\902876-81-2_credit_details_2018-03-14_00-46-08841.000.pdf wurde kopiert.
+DEBUG 2018-09-03 20:34:56,838 [main] nyp.Fileskopieren:fkopieren(91): C:\BankBelegeOrdner\alleBelege\20180418\902876-81_payment_2018-04-17_05-39-15063.000.pdf wurde kopiert.
+DEBUG 2018-09-03 20:34:56,839 [main] nyp.Fileskopieren:fkopieren(91): C:\BankBelegeOrdner\alleBelege\20180419\902876-81_payment_2018-04-18_05-34-17399.000.pdf wurde kopiert.
+DEBUG 2018-09-03 20:34:56,875 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,879 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,880 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,881 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,917 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,917 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,917 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,917 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,917 [main] nyp.Main:main(46): C:\BankBelegeOrdner\Bankbelege\1019_NoEng Bern Ordner wurde erstellt.
+DEBUG 2018-09-03 20:34:56,967 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,967 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,967 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:56,967 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:57,022 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:57,023 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:57,023 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:57,023 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:57,023 [main] nyp.Main:main(46): C:\BankBelegeOrdner\Bankbelege\1021_NoEng LU Ordner wurde erstellt.
+DEBUG 2018-09-03 20:34:57,084 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:57,084 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:57,089 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:57,089 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+DEBUG 2018-09-03 20:34:57,145 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180314 wurde gelöscht
+DEBUG 2018-09-03 20:34:57,147 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180403 wurde gelöscht
+DEBUG 2018-09-03 20:34:57,149 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180418 wurde gelöscht
+DEBUG 2018-09-03 20:34:57,150 [main] nyp.Filesloeschen:floeschen(39): C:\BankBelegeOrdner\alleBelege\20180419 wurde gelöscht
+INFO  2018-09-03 20:34:57,152 [main] nyp.Main:main(52): Programm beendet.
