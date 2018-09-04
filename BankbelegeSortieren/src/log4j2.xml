@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN" monitorInterval="10">
+ <Properties>
+ <Property name="LOG_DIR">./logs</Property>
+ <Property name="ARCHIVE">${LOG_DIR}/archive</Property>
+ <Property name="PATTERN">%-5level %d [%t] %c:%M(%L): %m%n</Property>
+ </Properties>
+ <Appenders>
+ <Console name="Console" target="SYSTEM_OUT">
+ <PatternLayout
+ pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+ </Console>
+  <RollingFile
+ name="fileWriter"
+ fileName="${LOG_DIR}/Bankbelege.log"
+ filePattern="${ARCHIVE}/Bankbelege.log__%d{yyyy-MM-dd-hh-mm}.gz">
+ <PatternLayout pattern="${PATTERN}"/>
+ <Policies>
+ <TimeBasedTriggeringPolicy interval="2" modulate="true"/>
+ <SizeBasedTriggeringPolicy size="1 MB"/>
+ </Policies>
+ <DefaultRolloverStrategy max="20"/>
+ </RollingFile>
+ </Appenders>
+ <Loggers>
+ <Root level="trace">
+ <AppenderRef ref="fileWriter"/>
+ </Root>
+ </Loggers>
+</Configuration>
