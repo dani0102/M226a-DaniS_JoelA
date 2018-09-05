@@ -15,6 +15,7 @@ public class Main {
     
     log.info("Programm gestartet.");
     
+    //get locations of stored bank receipts and new path
     String filename = "Pfad.properties";
     
     Properties props = Loadprop.loadprops(filename);
@@ -28,6 +29,7 @@ public class Main {
     
     ArrayList<Firmen> firma = new ArrayList<>();
     
+    //adding folder name for each company
     firma.add(new Firmen("NoMag", "10_NoMag"));
     firma.add(new Firmen("BS", "30_B+S"));
     firma.add(new Firmen("Akros", "40_Akros"));
@@ -40,7 +42,9 @@ public class Main {
     firma.add(new Firmen("NoEngBern", "1019_NoEng Bern"));
     firma.add(new Firmen("NoEngLU", "1021_NoEng LU"));
     
+    //entering loop to create needed directories for each company
     for(Firmen f : firma) {
+      //main folder and folder with company's name
       File foerstellen = new File(Hauptordner + "\\" + f.Ordnername);
       foerstellen.mkdir();
       log.debug(foerstellen.getPath() + " Ordner wurde erstellt.");
