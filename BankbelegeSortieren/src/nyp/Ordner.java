@@ -10,6 +10,7 @@ public class Ordner {
 
   static final Logger log = LogManager.getLogger(Ordner.class);
   
+  //creating folders for different currencies
   public static void woerstellen(String hauptordner, String ordnername, int anzahlkonten, String[] bankkonto) {
     
     String CHF = hauptordner + "\\" + ordnername + "\\CHF";
@@ -35,7 +36,7 @@ public class Ordner {
         USDordner.mkdir();
         break;
       default:
-        log.warn("Unbekannter Währungsordner.");
+        log.warn("Unbekannter WÃ¤hrungsordner.");
         break;
       
     }
@@ -44,6 +45,7 @@ public class Ordner {
     
   }
   
+  //creating folder for the year
   public static void joerstellen(String hauptordner, String ordnername, int anzahlkonten, String[] bankkonto) {
     
     File wordner = new File(hauptordner + "\\" + ordnername);
@@ -71,12 +73,13 @@ public class Ordner {
     
   }
   
+  //creating folder for each month
   public static void moerstellen(String jahrpath, int anzahlkonten, String[] bankkonto, int i) {
     
     String[] monate = {
         ("01_Januar"),
         ("02_Februar"),
-        ("03_März"),
+        ("03_MÃ¤rz"),
         ("04_April"),
         ("05_Mai"),
         ("06_Juni"),
