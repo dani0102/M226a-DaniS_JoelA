@@ -1,0 +1,21 @@
+Work from 11.09.2018
+--------------------
+
+Today we were able to show our sequence diagram of our 
+bankreceipt program, show that we understand delegation, 
+unit tests and a program with dices using dices. 
+Afterwards we started thinking about the secod column. 
+We'll try to cover all points of the second column 
+with a PacMan game. We should be able to cover most of it,
+but we are still trying to figure out how we'll implement
+Lambda functions.
+
+This was also our main problem, figure out how to work with
+the PacMan program. Understanding the smaller parts like
+delegation, aggregation, compositions, was no problem at all.
+We used our own ideas, so we could be sure we understood it.
+
+Our next steps would be trying to fille out the second column 
+with the PacMan game. First we'll do the class diagram, so we
+know what we need to do. At the same time, we will wirte down
+ideas for our next bigger project, that will cover the 3rd column.
