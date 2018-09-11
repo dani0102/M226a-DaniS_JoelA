@@ -1,0 +1,41 @@
+@startuml
+
+autonumber
+
+Actor User
+
+User -> Main: starting program
+
+activate Main
+
+Main -> Ordner: woerstellen();
+
+activate Ordner
+
+Ordner -> Ordner: joerstellen();
+Ordner -> Ordner: moerstellen();
+Ordner -> Fileskopieren: fkopieren();
+
+activate Fileskopieren
+
+Fileskopieren --> Ordner: files copied
+
+deactivate Fileskopieren
+
+Ordner -> Filesloeschen: floeschen();
+
+activate Filesloeschen
+
+Filesloeschen --> Ordner: files deleted
+
+deactivate Filesloeschen
+
+Ordner --> Main: directories done
+
+deactivate Ordner
+
+Main --> User: program done
+
+deactivate Main
+
+@enduml
