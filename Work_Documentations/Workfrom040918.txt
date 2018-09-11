@@ -1,0 +1,11 @@
+Work from 04.09.2018
+---------------------------
+
+Today we were able to show our program “BankbelegeSortieren”, which basically sorts 
+out bankreceipts in created directories and deletes old ones afterwards. To this program 
+we made a UML class diagram which also included the property files. For the testing we 
+started out with Blackbox / Whitebox testing, in our code we could also show collections 
+with ArrayList and exception-handling with log4j. Everything was uploaded on our GitHub repository. 
+This day we didn’t face any problems our troubles, we could work with ease.
+For next week we want to start with Basic Unit Tests and Threads. If we can fulfil those requirements, 
+we have the first row completely filled and would continue with the second row. 
