@@ -1,0 +1,15 @@
+Work from 18.09.2018
+---------------------
+
+Today we decided on our two last projects for this module,
+one being a printservice where you can select color, size,
+doublesided and printer, and the other, bigger one, being
+a library program where you can see all books and dvds,
+whether they are currently available or not, and also log
+in as your user. We believe that now we can start working
+on them to fullfill the competence raster.
+
+There weren't a lot of problems, but we had to discuss a bit
+to decide on a project that covers all competences. Starting
+next week we'll work first on the printservice project and
+after we finish that we'll move on to the library project.
