@@ -1,0 +1,42 @@
+@startuml
+
+class Main {
+  - rbColor();
+  - rbDoublesided();
+  - cbSize();
+  - cbPrinter();
+  - sendButton();
+  + main(String[] args);
+}
+
+class Printer {
+  + preparePrint(String Coloration, 
+    String Doublesided, String Size, String Printer); 
+  - checkStringEmptiness(String CheckedString);
+}
+
+class PrinterPinetree {
+  + printerPinetree()
+}
+
+class PrinterPalmtree {
+  + printerPalmtree()
+}
+
+class PrinterAppletree {
+  + printerAppletree()
+}
+
+class PerformPrint {
+  + performPrint(String Printername);
+}
+
+Main -o Printer
+Printer -o PrinterPalmtree
+Printer -o PrinterPinetree
+Printer -o PrinterAppletree
+PrinterPalmtree -o PerformPrint
+PrinterPinetree -o PerformPrint
+PrinterAppletree -o PerformPrint
+
+@enduml
