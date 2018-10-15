@@ -1,0 +1,59 @@
+Library Service - work document
+-------------------------------
+
+Our idea to complete the last row in the
+competence grip was to program a library service.
+It should cover all points so we stick with it.
+
+First Joel created a class diagram with what
+we expected the program to look like. We were
+a little naive to think it would take that less,
+since our final product was much bigger than
+our first class diagram. At that time Daniela was
+fixing some thing with our older project, 
+the print service. 
+
+When we were sure about the how our basic program
+would look like, we created an ERM for our 
+database. Already at that step we encountered a 
+little problem, because we had to make sure
+to add the delegation relationship. After the
+ERM was done, connecting our program with the
+database was not a big deal since we already had
+experience with this procedure. 
+
+For this project we wanted to use JavaFX so it
+would look more 'professional', which obviously
+was a problem throughout the whole project,
+because both had not yet worked with it. Creating 
+the tables with the data from the database was
+difficult, but in the end we could make it work.
+
+Daniela was more focused on those tables since
+she felt more comfortable working with the
+database. Joel would be working on how to deal
+with the delegation, because he had more
+knowledge with relationships.
+
+After deciding more things, Joel moved on with
+adding new loans, returns and medias which he
+would connect with the delegation. Daniela finished
+the login screen and creating new users.
+
+Throughout the whole project we made sure that
+both understood what the other was doing. After
+everything was set up, we tested it a couple of
+times and fixed some errors.
+
+Now that the program was done, we moved on to
+updating the class and sequence diagram. Since the
+program was bigger that what we expected, it was
+also a dificulty to create those two diagrams.
+We had trouble, because with all the classes
+and functions, it easily got confusing. We tried
+to, instead of drawing a line to every table class,
+to draw the line to the package that contained
+all the tables. This definitely made it easier to 
+understand the diagram and have less lines. Now,
+if it's still acceptable is something we have to
+discuss at school when turning in the project.
