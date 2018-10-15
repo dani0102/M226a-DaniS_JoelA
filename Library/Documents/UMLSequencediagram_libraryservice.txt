@@ -1,0 +1,75 @@
+@startuml
+
+autonumber
+
+User -> Main: starts program
+
+activate Main
+Main -> Login: login();
+
+deactivate Main
+activate Login
+
+User --> Login: presses "Create New User"
+Login -> NewUser: if "Create New User" is pressed
+activate NewUser
+
+NewUser --> Database: insertNewUser();
+Database --> NewUser: User was created
+NewUser -> Login
+deactivate NewUser
+
+User --> Login: login into library service
+activate Tables
+Login -> Tables: login successful, display chosen table
+deactivate Login
+activate Database
+
+Tables --> Database: select table information
+Database --> Tables: pass on table information
+
+deactivate Database
+activate SwitchTables
+User --> Tables: change table
+Tables -> SwitchTables
+SwitchTables --> Tables: change of table
+deactivate SwitchTables
+
+User --> Tables: add new loan
+activate AddNew
+Tables -> AddNew
+activate AddNewLoan
+AddNew -> AddNewLoan: if "Add Loan" is pressed
+deactivate AddNew
+AddNewLoan --> Database: addLoan();
+activate Database
+Database --> Tables: Loan was created
+deactivate Database
+deactivate AddNewLoan
+
+User --> Tables: add new return
+activate AddNew
+Tables -> AddNew
+AddNew -> AddNewReturn: if "Add Return" is pressed
+activate AddNewReturn
+deactivate AddNew
+activate Database
+AddNewReturn --> Database: addReturn();
+Database --> Tables: Return was created
+deactivate Database
+deactivate AddNewReturn
+
+User --> Tables: add new media
+activate AddNew
+Tables -> AddNew
+activate AddNewMedia
+AddNew -> AddNewMedia: if "Add Media" is pressed
+deactivate AddNew
+activate Database
+AddNewMedia --> Database: addMedia();
+Database --> Tables: Media was created
+deactivate Database
+deactivate AddNewMedia
+
+User --> Tables: close program
+deactivate Tables

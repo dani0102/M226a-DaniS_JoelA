@@ -1,0 +1,125 @@
+@startuml
+
+package add {
+  
+  class AddNewLoan {
+      + {static} void add(String table, String name);
+  }
+  class AddNewReturn {
+      + {static} void add(String table, String name);
+  }
+  class AddNewMedia {
+      + {static} void add(String table, String name);
+  }
+  
+}
+
+package application {
+  
+  class AddNew {
+    + {static} void addOptions(String table, String name);
+  }
+  class AlertBox {
+    + {static} void alertBox(String text);
+  }
+  class Book{
+    + Book(String author, int pages, String title, String lendDate, String returnDate, String available, String user);
+    + String getAuthor();
+    + void setAuthor(String author);
+    + int getPages();
+    + void setPages(int pages)
+  }
+  class Database {
+    + {static} boolean checkLogin(String username, String password);
+    + {static} void inserNewUser(String username, String password);
+    + {static} void selectAllMedias();
+    + {static} void selectAllLoaned();
+    + {static} void selectAllFree();
+    + {static} void selectAllDVD();
+    + {static} void selectAllBooks();
+    + {static} void selectAllLoanable(String media);
+    + {static} int userID(String username);
+    + {static} int mediaID(String media);
+    + {static} int sortID(String sort);
+    + {static} boolean addLoan(int userID, int mediaID);
+    + {static} void selectAllLoanedByUser(int userID);
+    + {static} boolean addReturn(int userID, int mediaID);
+    + {static} boolean addMedia(String title, String author, int sortID);
+    - {static} void tableCells(TableColumn column, int number);
+  }
+  class DVD {
+    + DVD(String author, int lengthMin, String title, String lendDate, String returnDate, String available, String user);
+    + String getAuthor();
+    + void setAuthor(String author);
+    + int getLengthMin();
+    + void setLengthMin(int lengthMin);
+  }
+  class Login {
+    + {static} void login();
+  
+  }
+  class  Main {
+    + {static} void main(String[] args);
+    + void start(Stage primaryStage)
+  }
+  class Media {
+    + Media(String title, String lendDate, String returnDate, String available, String user);
+    + String getTitle();
+    + void setTitle(String title);
+    + String getLendDate();
+    + void setLendDate(String lendDate);
+    + String getReturnDate();
+    + void setReturnDate(String returnDate);
+    + String getAvailable();
+    + void setAvailable(String available);
+    + String getUser();
+    + void setUser(String user);
+  }
+  class NewUser {
+    + {static} void creatNewUser();
+  }
+  class SwitchTables {
+    + {static} void comboBox(String name);
+  }
+  
+}
+
+package tables {
+  
+  class TableAllBooks {
+    + {static} void table(String name);
+  }
+  class TableAllDVD {
+    + {static} void table(String name);
+  }
+  class TableAllFree {
+    + {static} void table(String name);
+  }
+  class TableAllLoaned {
+    + {static} void table(String name);
+  }
+  class TableAllMedias {
+    + {static} void table(String name);
+  }
+  
+}
+
+Main -o Login
+Login -o Database
+Login -o TableAllMedias
+Login -o AlertBox
+Login o-o NewUser
+NewUser -o Database
+tables -o Database
+tables -o AddNew
+tables o-o SwitchTables
+AddNew -o add
+add -o Database
+add -o AlertBox
+add -o tables
+Book -o{ Media
+DVD -o{ Media
+Media -o tables
+Media -o add
+
+@enduml
