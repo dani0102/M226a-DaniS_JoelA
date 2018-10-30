@@ -1,0 +1,12 @@
+Work from 23.10.2018
+--------------------
+
+We finished our library programm in the
+break before Joel went to france. We showed
+how the program functions, the class and
+sequence diagrams and also our work 
+documentation. Now the only thing that's 
+left is for the teacher to read our work 
+documentation and if that is alright, 
+our competence skript would be completely
+fullfilled.
