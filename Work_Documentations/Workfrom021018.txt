@@ -1,0 +1,12 @@
+Work from 02/10/2018
+--------------------
+
+Today we wanted to continue on our library
+program. We finished our database and did
+some adjustments on our GUI. Next up would
+be connecting our program with the database
+which we expect to do without problems
+since we already have some experience with
+it. For the holidays we want to try to finish
+the programm, so that we can afterwards
+discuss the program and fix some things.

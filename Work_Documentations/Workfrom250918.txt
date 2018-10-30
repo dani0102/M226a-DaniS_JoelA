@@ -1,0 +1,14 @@
+Work from 25.09.2018
+--------------------
+
+Today we finished our print service programm and 
+filled out the second row. Now we are working on
+our library service program. We are starting 
+with the login, which we plan on finishing until
+next week.
+On the printer service program we were struggling
+a little with the unit tests, but were able to
+overcome that problem.
+For next week we have planned on creating the
+inheritance, delegation and finish the uml
+diagrams.
